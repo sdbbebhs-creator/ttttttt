@@ -89,3 +89,4 @@ Text AI uses `gemini-3.5-flash-lite` first and automatically falls back to `gemi
 
 ## Vercel AI note
 The AI routes under /api/ai are intended for Vercel. The fallback order is gemini-3.5-flash-lite -> gemini-3.1-flash-lite. A quota error is returned as HTTP 429 instead of being masked by a secondary exception.
+.
